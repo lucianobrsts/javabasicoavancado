@@ -134,5 +134,24 @@ public class Variavel {
         b -= a;
         System.out.println(b);
 
+        // 11 -  Type Casting
+
+        // conversão implicita (widening)
+        int numero2 = 42;
+        long numeroLong = numero2;
+        double numeroDouble = numero2;
+        System.out.println(numeroLong);
+        System.out.println(numeroDouble);
+
+        // conversão explicita (narrowing)
+        double valorDouble = 9.78;
+        int valorInt = (int) valorDouble;
+        System.out.println(valorInt);
+
+        // casting de char para int
+        char letra3 = 'A';
+        int codigoAscii = (int) letra3;
+        System.out.println(codigoAscii);
+
     }
 }
