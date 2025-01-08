@@ -41,6 +41,16 @@ public class Variavel {
            * Retorno: A soma
            */
 
+           //4- String
+           String firstName = "Luciano";
+           String lastName = "Brito";
+
+           System.out.println(firstName + lastName);
+           System.out.println(firstName + " " + lastName);
+           System.out.println("O nome dele é " + firstName);
+           String fullName = firstName + " " + lastName;
+           System.out.println(fullName);
+
 
     }
 }
