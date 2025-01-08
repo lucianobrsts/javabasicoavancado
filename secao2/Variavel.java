@@ -158,5 +158,18 @@ public class Variavel {
 
         System.out.println("Dias da semana: " + DIAS_DA_SEMANA);
 
+        // 13 - Var
+        var z = 10;
+        System.out.println(z);
+
+        // z = "Teste" - Erro pq ele já foi inferido como um int
+        z = 5;
+        System.out.println(z);
+
+        var texto2 = "teste";
+        var doubleTeste = 2.0;
+        System.out.println(texto2);
+        System.out.println(doubleTeste);
+
     }
 }
