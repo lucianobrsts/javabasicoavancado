@@ -24,6 +24,22 @@ public class Variavel {
 
         System.out.println(numeroGrande);
 
+        // 3- Comentários
+
+        /*
+    
+        comentário linha 1
+        comentario linha 2
+        comentário linha 3
+         */
+
+          /**
+           * Função para somar números
+           * param1: Primeriro número
+           * Param2: Segundo número
+           * 
+           * Retorno: A soma
+           */
 
 
     }
