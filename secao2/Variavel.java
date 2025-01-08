@@ -94,5 +94,21 @@ public class Variavel {
         double valorComD = 12.1D;
         System.out.println(valorComD);
 
+        // 9 - Operadores Aritmeticos - p1
+
+        int soma2 = 12 + 5;
+        System.out.println(soma2);
+        System.out.println(22 + 4);
+        System.out.println(10 - 5);
+        System.out.println(10 * 5);
+        System.out.println(10 / 2.5);
+        System.out.println(10.0 / 2.5);
+
+        // para ter um resultado quebrado (1.5), pelo menos 1 número da divisão tem que ser ponto flutuante
+
+        System.out.println(10 / 3);
+        System.out.println(10.0 / 3);
+        System.out.println(10.0 % 3);
+
     }
 }
