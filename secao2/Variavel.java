@@ -82,5 +82,17 @@ public class Variavel {
         long grandeNumero = 1_000_000L;
         System.out.println(grandeNumero + 1);
 
+        // Double
+        double preco = 19.99;
+        System.out.println(preco);
+        System.out.println(preco - 12);
+        System.out.println(preco / 2);
+        
+        double pi = 3.141_592_123;
+        System.out.println(pi);
+        
+        double valorComD = 12.1D;
+        System.out.println(valorComD);
+
     }
 }
