@@ -74,5 +74,13 @@ public class Variavel {
         int soma = n + 12;
         System.out.println(soma);
 
+        // 7- Long
+
+        long pupulacaoMundial = 780000000000000L;
+        System.out.println(pupulacaoMundial);
+
+        long grandeNumero = 1_000_000L;
+        System.out.println(grandeNumero + 1);
+
     }
 }
