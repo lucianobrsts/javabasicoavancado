@@ -64,5 +64,15 @@ public class Variavel {
         char simbolo = '$';
         System.out.println(simbolo);
 
+        //6 -  int
+        int n = 42;
+        System.out.println(n);
+        System.out.println(n + 5);
+        System.out.println(n * 10);
+        System.out.println(n / 5);
+
+        int soma = n + 12;
+        System.out.println(soma);
+
     }
 }
