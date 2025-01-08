@@ -153,5 +153,10 @@ public class Variavel {
         int codigoAscii = (int) letra3;
         System.out.println(codigoAscii);
 
+        // 12 - Constantes
+        final int DIAS_DA_SEMANA = 7;
+
+        System.out.println("Dias da semana: " + DIAS_DA_SEMANA);
+
     }
 }

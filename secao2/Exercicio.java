@@ -27,7 +27,7 @@ public class Exercicio {
         System.out.println();
         
         System.out.println("---Exercício 4--------------------------------");
-        long bilhoes = 2_000_000_000;
+        long bilhoes = 2_000_000_000L;
         int intRecebeBilhoes = (int) bilhoes;
         System.out.println("O valor long: " + bilhoes);
         System.out.println("O valor convertido para int: " + intRecebeBilhoes);
