@@ -27,30 +27,42 @@ public class Variavel {
         // 3- Comentários
 
         /*
-    
-        comentário linha 1
-        comentario linha 2
-        comentário linha 3
+         * 
+         * comentário linha 1
+         * comentario linha 2
+         * comentário linha 3
          */
 
-          /**
-           * Função para somar números
-           * param1: Primeriro número
-           * Param2: Segundo número
-           * 
-           * Retorno: A soma
-           */
+        /**
+         * Função para somar números
+         * param1: Primeriro número
+         * Param2: Segundo número
+         * 
+         * Retorno: A soma
+         */
 
-           //4- String
-           String firstName = "Luciano";
-           String lastName = "Brito";
+        // 4- String
+        String firstName = "Luciano";
+        String lastName = "Brito";
 
-           System.out.println(firstName + lastName);
-           System.out.println(firstName + " " + lastName);
-           System.out.println("O nome dele é " + firstName);
-           String fullName = firstName + " " + lastName;
-           System.out.println(fullName);
+        System.out.println(firstName + lastName);
+        System.out.println(firstName + " " + lastName);
+        System.out.println("O nome dele é " + firstName);
+        String fullName = firstName + " " + lastName;
 
+        // Concatenação = operador + nas strings para uni-las.
+        System.out.println(fullName);
+
+        // 5- Char
+
+        char letra = 'A';
+        System.out.println(letra);
+
+        String letra2 = "A";
+        System.out.println(letra2);
+
+        char simbolo = '$';
+        System.out.println(simbolo);
 
     }
 }
