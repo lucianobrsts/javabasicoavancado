@@ -110,5 +110,29 @@ public class Variavel {
         System.out.println(10.0 / 3);
         System.out.println(10.0 % 3);
 
+        //  10 - Operadores Aritméticos - p2
+        int x = 5;
+        x++;
+        x++;
+        x++;
+        x++;
+        System.out.println(x);
+
+        int y = 5;
+        y--;
+        System.out.println(y);
+
+        int a = 10;
+        a += 5;
+        // a = a + 5;
+        System.out.println(a);
+
+        int b = 10;
+        b -= 5;
+        System.out.println(b);
+
+        b -= a;
+        System.out.println(b);
+
     }
 }
