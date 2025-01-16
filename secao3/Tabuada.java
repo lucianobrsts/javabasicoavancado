@@ -11,17 +11,15 @@ public class Tabuada {
     public static void main(String[] args) {
 
         Scanner entrada = new Scanner(System.in);
-        String textoInicial = "Digite um número entre 1 e 10 para que sua tabuada seja exibida: ";
+        String textoInicial = "Digite um número inteiro para que sua tabuada seja exibida: ";
         int limiteTabuada = 10;
         int valorParaTabuada = 0;
         char repetirExibirTabuada = 's';
 
-        while (valorParaTabuada > 10 || valorParaTabuada < 1) {
+        while (repetirExibirTabuada != 'n') {
             System.out.print(textoInicial);
             valorParaTabuada = entrada.nextInt();
-        }
 
-        while (repetirExibirTabuada != 'n') {
             for (int i = 1; i <= limiteTabuada; i++) {
                 System.out.print(i + " x " + valorParaTabuada + " = " + (i * valorParaTabuada));
                 System.out.println();
@@ -31,9 +29,8 @@ public class Tabuada {
             System.out.println("Digite s ou n");
             repetirExibirTabuada = entrada.next().charAt(0);
 
-            if(repetirExibirTabuada == 's') {
-                System.out.print(textoInicial);
-                valorParaTabuada = entrada.nextInt();
+            if(repetirExibirTabuada == 'n') {
+                System.out.println("Fim do Programa!");
             }
         }
 
