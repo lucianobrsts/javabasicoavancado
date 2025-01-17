@@ -28,7 +28,11 @@ public class MediaAluno {
 
         double mediaFinal = media / quantidadeNotas;
 
-        System.out.println("O aluno " + nomeAluno + " obteve média final de " + mediaFinal);
+        if(mediaFinal >= 7) {
+            System.out.printf("O aluno %s foi APROVADO com média final de %.2f", nomeAluno, mediaFinal );
+        } else {
+            System.out.printf("O aluno %s foi REPROVADO com média final de %.2f", nomeAluno, mediaFinal );
+        }
 
         entrada.close();
     }
