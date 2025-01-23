@@ -46,5 +46,17 @@ public class Condicionais {
             System.out.println("O texto não é igual");
         }
 
+        double nota = 10.0;
+
+        if (nota == 10) {
+            System.out.println("Você tirou a nota máxima, parabéns!");
+        } else if(nota >= 9) {
+            System.out.println("A nota é muito boa!");
+        } else if (nota >= 7) {
+            System.out.println("Acima de média");
+        } else {
+            System.out.println("Abaixo da média");
+        }
+
     }
 }
