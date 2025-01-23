@@ -1,9 +1,9 @@
 package secao5;
 
 public class Condicionais {
-    
+
     public static void main(String[] args) {
-        
+
         String str1 = "Java";
         String str2 = new String("Java");
 
@@ -22,16 +22,29 @@ public class Condicionais {
 
         int numero = 10;
 
-        if(numero > 125) {
+        if (numero > 125) {
             System.out.println("O número é maior que 5");
         }
 
-        String texto = "Texto";
+        String texto = "Teste";
 
-        if(texto.equals("Texto")) {
+        if (texto.equals("Texto")) {
             System.out.println("O texto é: Texto!");
-        } 
+        }
 
+        int q = 17;
+
+        if (q > 10) {
+            System.out.println("Q é maior que 10");
+        } else {
+            System.out.println("Insira um número maior que 10");
+        }
+
+        if(texto.equalsIgnoreCase("teste")) {
+            System.out.println("o texto é: Teste");
+        } else {
+            System.out.println("O texto não é igual");
+        }
 
     }
 }
