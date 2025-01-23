@@ -20,5 +20,18 @@ public class Condicionais {
         System.out.println(str1.equals(str3));
         System.out.println(str1.equalsIgnoreCase(str3));
 
+        int numero = 10;
+
+        if(numero > 125) {
+            System.out.println("O número é maior que 5");
+        }
+
+        String texto = "Texto";
+
+        if(texto.equals("Texto")) {
+            System.out.println("O texto é: Texto!");
+        } 
+
+
     }
 }
