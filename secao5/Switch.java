@@ -33,5 +33,18 @@ public class Switch {
                 break;
         }
 
+        int n = 1;
+
+        switch (n) {
+            case 1:
+                System.out.println("É 1");
+                break;
+            case 2:
+                System.out.println("É 2");
+                break;
+            default:
+                System.out.println("Número não encontrado!");
+                break;
+        }
     }
 }
