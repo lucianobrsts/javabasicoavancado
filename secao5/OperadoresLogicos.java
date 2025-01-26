@@ -43,6 +43,12 @@ public class OperadoresLogicos {
             System.out.println("Entrada negada!");
         }
 
+        System.out.println(estaChovendo);
+        System.out.println(!estaChovendo);
+
+        System.out.println(estaChovendo || !temGuardaChuva);
+        System.out.println(!(estaChovendo || !temGuardaChuva));
+
 
     }
 
