@@ -21,5 +21,19 @@ public class Condicionais2 {
         } else {
             System.out.println("Você não pode dirigir ainda!");
         }
+
+        boolean a = true;
+        boolean b = false;
+        boolean c = true;
+
+        boolean resultado2 = a && b || c;
+        System.out.println(resultado2);
+
+        resultado2 = a || b && c;
+        System.out.println(resultado2);
+
+        resultado2 = !(a || b) && c;
+        System.out.println(resultado2);
+
     }
 }
