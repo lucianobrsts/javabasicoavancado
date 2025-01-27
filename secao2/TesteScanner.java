@@ -18,10 +18,8 @@ public class TesteScanner {
 
         // 2- Problema com nextLine
         System.out.print("Digite um número: ");
-        int n = entrada.nextInt();
         entrada.nextLine();
         System.out.print("Digite um texto: ");
-        String txt = entrada.nextLine();
 
         entrada.close();
     }

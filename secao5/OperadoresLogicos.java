@@ -2,6 +2,7 @@ package secao5;
 
 public class OperadoresLogicos {
 
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
 
         int idade = 18;
