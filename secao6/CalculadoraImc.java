@@ -34,5 +34,7 @@ public class CalculadoraImc {
         System.out.printf("O o calculo do IMC é %.2f:\n ", resultadoImc);
         System.out.println("O seu diagnostico é: " + diagnostico);
 
+        teclado.close();
+
     }
 }
