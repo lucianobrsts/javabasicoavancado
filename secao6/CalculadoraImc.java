@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class CalculadoraImc {
 
     private static double calcularImc(double peso, double altura) {
-
         return peso / (altura * altura);
     }
 
