@@ -8,7 +8,7 @@ public class Funcoes {
     }
 
     public static void saudacao() {
-        System.out.println("Olá esta é a minha primeira função!");
+        System.out.println("Olá esta é a minha primeira função programando em Java!");
     }
 
 }
